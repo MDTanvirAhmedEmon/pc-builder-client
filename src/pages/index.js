@@ -37,7 +37,7 @@ HomePage.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch('http://localhost:5000/random-product');
+  const res = await fetch('https://pc-builder-server-nine.vercel.app/random-product');
   const data = await res.json();
 
   return{

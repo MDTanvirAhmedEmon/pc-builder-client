@@ -47,7 +47,7 @@ export const getServerSideProps = async (context) =>{
     const {params} = context;
     console.log(params);
 
-    const res = await fetch(`http://localhost:5000/product/${params.productId}`);
+    const res = await fetch(`https://pc-builder-server-nine.vercel.app/product/${params.productId}`);
     const data = await res.json();
     
     return {

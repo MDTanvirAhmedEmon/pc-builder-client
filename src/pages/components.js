@@ -27,7 +27,7 @@ Components.getLayout = function getLayout(page) {
 
 export const getServerSideProps = async () =>{
 
-    const res = await fetch(`http://localhost:5000/products`);
+    const res = await fetch(`https://pc-builder-server-nine.vercel.app/products`);
     const data = await res.json();
     
     return {
