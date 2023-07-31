@@ -9,9 +9,9 @@ const productsCate = ({data, params}) => {
         <div className="py-20">
             <div className="container mx-auto">
                 <div>
-                    <h1 className="text-5xl">Category: {params}</h1>
+                    <h1 className="text-4xl md:text-5xl">Category: {params}</h1>
                 </div>
-                <div className="py-20 grid grid-cols-5 gap-8">
+                <div className="py-20 mx-3 md:mx-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
                     {
                         data?.data?.map(product => <ProductCart key={product._id} product={product}></ProductCart>)
                     }

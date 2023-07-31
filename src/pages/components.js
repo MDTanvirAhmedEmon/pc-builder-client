@@ -9,7 +9,7 @@ const Components = ({data}) => {
                 <div>
 
                 </div>
-                <div className="grid grid-cols-5 gap-5">
+                <div className="px-3 md:px-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
                     {
                         data?.data?.map(product => <ProductCart key={product._id} product={product}></ProductCart>)
                     }

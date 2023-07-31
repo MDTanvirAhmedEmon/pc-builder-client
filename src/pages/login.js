@@ -7,7 +7,7 @@ const SignIn = () => {
   return (
     <div className="py-20">
       <div className="container mx-auto">
-        <div className="flex justify-center">
+        <div className="flex justify-center mx-4 md:mx-0">
 
           <div className="p-10 rounded-lg shadow-md bg-slate-50 w-[500px]">
             <h3 className="text-center font-semibold text-3xl mb-4">Log In</h3>

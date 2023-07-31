@@ -58,11 +58,11 @@ const Categorys = () => {
         <div>
 
           <div>
-            <h1 className="text-5xl text-center font-bold mb-14">Categories</h1>
+            <h1 className="text-4xl md:text-5xl text-center font-bold mb-14">Categories</h1>
           </div>
           
         </div>
-        <div className="grid grid-cols-7 gap-5">
+        <div className="px-5 md:px-0 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-5">
             {
                 categories.map(category => <CategoryCart key={category.id} category={category}></CategoryCart>)
             }
