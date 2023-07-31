@@ -16,12 +16,12 @@ const ProductId = ({data}) => {
     
 
     return (
-        <div className="py-20">
-            <div className="container mx-auto flex items-center gap-5">
-                <div className="w-1/2">
+        <div className="pb-14 md:pb-0 md:py-20">
+            <div className="px-4 md:px-0 container mx-auto flex flex-col md:flex-row items-center gap-5 md:mb-7 lg:mb-0">
+                <div className="md:w-auto lg:w-1/2">
                 <Image width={500} height={500}  src={image} alt="Components" />
                 </div>
-                <div className="">
+                <div className="w-full md:w-1/2 lg:w-auto">
                     <h1 className="text-3xl font-bold">{productName}</h1>
                     <p className="text-lg mt-2">Category: {category}</p>
                     <p className="text-lg mt-2">{status}</p>

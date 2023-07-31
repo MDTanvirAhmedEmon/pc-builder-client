@@ -22,7 +22,7 @@ const Builder = () => {
   return (
     <div className="py-20">
       <div className="container mx-auto">
-        <div className="w-auto lg:w-[1000px] mx-auto shadow-lg h-auto p-8 rounded-lg">
+        <div className="w-auto lg:w-[1000px] mx-4 md:mx-auto shadow-lg h-auto p-8 rounded-lg ">
           <p className="text-3xl md:text-4xl font-bold text-center">Choose Components</p>
             {/* processor */}
           <div className="w-90% h-40 border-2 my-5 relative rounded-md">
